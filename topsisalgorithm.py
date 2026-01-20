@@ -8,7 +8,9 @@ def error(msg):
     sys.exit(1)
 
 # MAIN TOPSIS FUNCTION 
-def topsis(input_file, weights, impacts, result_file):
+def topsis(input_file, weights, impacts, result_file="results/result.csv"):
+
+#def topsis(input_file, weights, impacts, result_file):
 
     try:
         data = pd.read_csv(input_file)
