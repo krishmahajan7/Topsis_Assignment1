@@ -110,7 +110,17 @@ if st.button("🚀 Run TOPSIS Analysis", use_container_width=True):
             else:
                 # Run TOPSIS
                 with st.spinner("Processing TOPSIS analysis..."):
-                    result_path = topsis(df, weights, impacts)
+                    # Save uploaded file
+                    upload_path = f"uploads/{uploaded_file.name}"
+                    with open(upload_path, "wb") as f:
+                        f.write(uploaded_file.getbuffer())
+                    
+                    # Call topsis with weights and impacts as strings
+                    result_path = "results/result.csv"
+                    weights_str = ','.join(map(str, weights))
+                    impacts_str = ','.join(impacts)
+                    
+                    topsis(upload_path, weights_str, impacts_str, result_path)
                     result_df = pd.read_csv(result_path)
                     
                     st.success("✅ Analysis completed successfully!")
