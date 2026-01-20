@@ -50,6 +50,9 @@ streamlit run streamlit_app.py
 └── README.md               # This file
 ```
 
+Streamlit Link
+https://topsisassignment1-krish.streamlit.app/
+
 ## Requirements
 
 - Python 3.8+
