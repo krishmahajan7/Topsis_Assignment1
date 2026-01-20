@@ -4,12 +4,12 @@ A Streamlit web application for performing TOPSIS (Technique for Order of Prefer
 
 ## Features
 
-- 📊 Upload CSV data files
-- 🎯 Configure weights and impacts
-- ⚡ Instant TOPSIS analysis
-- 📥 Download results as CSV
-- 📧 Email results directly to your inbox
-- 🎨 Modern, user-friendly interface
+-  Upload CSV data files
+-  Configure weights and impacts
+-  Instant TOPSIS analysis
+-  Download results as CSV
+-  Email results directly to your inbox
+-  Modern, user-friendly interface
 
 ## Installation
 
