@@ -50,14 +50,6 @@ streamlit run streamlit_app.py
 └── README.md               # This file
 ```
 
-## Configuration
-
-Edit `.streamlit/config.toml` to customize:
-- Theme colors
-- Font settings
-- Logger level
-- Session state settings
-
 ## Requirements
 
 - Python 3.8+
