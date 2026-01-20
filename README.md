@@ -4,12 +4,12 @@ A Streamlit web application for performing TOPSIS (Technique for Order of Prefer
 
 ## Features
 
-- 📊 Upload CSV data files
-- 🎯 Configure weights and impacts
-- ⚡ Instant TOPSIS analysis
-- 📥 Download results as CSV
-- 📧 Email results directly to your inbox
-- 🎨 Modern, user-friendly interface
+- Upload CSV data files
+- Configure weights and impacts
+- Instant TOPSIS analysis
+- Download results as CSV
+- Email results directly to your inbox
+- Modern, user-friendly interface
 
 ## Installation
 
@@ -22,30 +22,6 @@ pip install -r requirements.txt
 ```bash
 streamlit run streamlit_app.py
 ```
-
-## Deployment Options
-
-### Option 1: Deploy to Streamlit Cloud
-1. Push your code to GitHub
-2. Go to [share.streamlit.io](https://share.streamlit.io)
-3. Connect your GitHub repo
-4. Select the repository and `streamlit_app.py` as the main file
-5. Click Deploy
-
-### Option 2: Deploy to Heroku
-1. Create a `Procfile`:
-```
-web: streamlit run streamlit_app.py --logger.level=error
-```
-
-2. Deploy:
-```bash
-git push heroku main
-```
-
-### Option 3: Deploy to AWS/Azure/GCP
-- Use Docker containerization with the provided setup
-- Or use cloud-native deployment services
 
 ## Usage
 
@@ -93,4 +69,4 @@ MIT
 
 ## Author
 
-Krishna Mahajan
+Krish Mahajan
